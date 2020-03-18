@@ -6,8 +6,8 @@ This repository is a project of Group 17 for course The Social Web in 2020 at Vr
 
 Our dataset is collected using Twitter Standard API. The main parameters include:
 
-- q='#coronavirus  -filter:retweets'  #Search Tweets containing coronavirus hashtag and ignores retweets
-- geocode   #set geolocation code based on user locations
+- q='#coronavirus  -filter:retweets'  #Search Tweets containing #coronavirus hashtag and ignores retweets
+- geocode   #set geolocation code based on user locations (Hong Kong, Singapore, the Netherlands, and the United States)
 - tweet_mode='extended'   #set extended mode to retrieve full text of tweets
 - endpoint=search.tweets   #using standard search API
 
