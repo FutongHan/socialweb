@@ -25,7 +25,7 @@ Before using the data for analysis, we firstly removed duplicated contents in da
 
 We performed sentiment analysis with Textblob and emotion analysis with Textblob and NRC EmoLex. The script can be found at ``analyze.py``. It reads Tweets from database, performs analysis, and stores the result in ``results`` table of the MySQL database.
 
-Besides that, we also did cloud word, frequently and so on. These can be found at jupyter files ending with ``.ipynb``
+Besides that, we also did word cloud, word frequency and so on. These can be found at jupyter files ending with ``.ipynb``
 
 
 ## Interactive Visualization
@@ -46,4 +46,5 @@ A live demo can be found at http://social.jybb.me
 
 
 ## Other Files
-- config.ini  # Configuration about MySQL connection and Twitter API information
+- config.ini  # Configuration on MySQL database and Twitter API key
+- web/config.php # Configuration on MySQL database for web
