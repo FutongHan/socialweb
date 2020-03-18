@@ -34,8 +34,16 @@ We built a website for interactive visualization. The source files of the websit
 
 The front-end is built with bootstrap and jQuery. Also, chart.js was used for rendering grahps.
 
-A live demo can be found at http://social.jybb.me and the running environment for the website is listed below.
+The running environment for the website is listed below.
 
 - Debian 10 x64
 - nginx/1.14.2
 - PHP-fpm 7.3.14
+
+### Live Demo
+
+A live demo can be found at http://social.jybb.me 
+
+
+## Other Files
+- config.ini  # Configuration about MySQL connection and Twitter API information
