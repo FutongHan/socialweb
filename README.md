@@ -32,7 +32,7 @@ Besides that, we also did word cloud, word frequency and so on. These can be fou
 
 We built a website for interactive visualization. The source files of the website can be found at ``web/``. The backend was written in PHP which handles users' requests, reads data from database, and feeds front-end with JSON data.
 
-The front-end is built with bootstrap and jQuery. Also, chart.js was used for rendering grahps.
+The front-end is built with bootstrap and jQuery. Also, chart.js was used for rendering graphs.
 
 The running environment for the website is listed below.
 
